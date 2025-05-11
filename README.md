@@ -35,7 +35,7 @@ Configure Ceph cluster is pretty easy to follow: https://pve.proxmox.com/wiki/De
 At this stage, all nodes should see ceph storage pools  
 ![image](https://github.com/user-attachments/assets/7d615686-6b11-4a44-ac92-f2de24b3a0de)
 
-## Kubernetes Cluster Bootstrap
+## Kubernetes Cluster Bootstrap ##
 Following VMs are used for K8s cluster:
 ````
 # Control Planes
@@ -48,8 +48,19 @@ talos-wk-02
 talos-wk-03
 ````
 Talos Linux is used due to its declarative (config via .yaml file), security (no direct shell access)  
+### Preparation ###
+* Talos ISO  
+Since Talos will be running as a VM on Proxmox, qemu agent needs to be added to be able to see the information from Proxmox. This is optional. Talos ISO can be generated from https://factory.talos.dev  
+![image](https://github.com/user-attachments/assets/dbd968e0-4d5f-411e-972f-0c426202a141)  
+Record the image ID and download the iso  
+Bootup the servers using talos iso.  
+![image](https://github.com/user-attachments/assets/4ecf3e36-a3cc-4461-ada7-ea61b70ed00d)  
 
-
+* Client Tools
+  - Install talosctl on your laptop/desktop where you use to manage the entire cluster https://www.talos.dev/v1.9/talos-guides/install/talosctl/
+  - Install kubectl https://kubernetes.io/docs/tasks/tools/
+  - Install k9s to manage Kubernetes cluster (optional) https://k9scli.io/topics/install/
+### Preparation ###
 
   
 
