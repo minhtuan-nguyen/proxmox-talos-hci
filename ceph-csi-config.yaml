@@ -7,9 +7,9 @@ data:
       {
         "clusterID": "567056cb-ecaa-4176-96d1-6dc007679b7e",
         "monitors": [
-          "172.49.172.184:6789",
-          "172.49.172.185:6789",
-          "172.49.172.186:6789"
+          "172.49.172.184:6789", # Replace with your IPs
+          "172.49.172.185:6789", # Replace with your IPs
+          "172.49.172.186:6789" # Replace with your IPs
         ]
       }
     ]
