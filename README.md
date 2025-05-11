@@ -25,8 +25,8 @@ A fully working 03 nodes HCI (Hyper Converged Infrastructure) which can host bot
 ## Ceph Installation  
 Configure Ceph cluster is pretty easy to follow: https://pve.proxmox.com/wiki/Deploy_Hyper-Converged_Ceph_Cluster  
 * Storage Pools:  
-  `vm-storage`: for storing VM disks
-  `k8s-storage`: providing persistent volume for Kubernetes cluster
+  `vm-storage`: for storing VM disks  
+  `k8s-storage`: providing persistent volume for Kubernetes cluster  
 * OSDs:
   ![image](https://github.com/user-attachments/assets/018eb10f-2e84-46bb-a4f2-c68d5133e182)
 
