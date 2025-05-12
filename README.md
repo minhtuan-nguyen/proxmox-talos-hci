@@ -184,6 +184,32 @@ Storage class is created and test PVC in bound status
 ![image](https://github.com/user-attachments/assets/f87ba8c4-ab50-4ddc-8610-4cf40e7504e2)  
 ![image](https://github.com/user-attachments/assets/832c435e-b7f6-48ab-a316-23041c083186)  
 
+## Bonus ##
+Google has recently released `kubectl-ai` to help managing and learning K8s much more interactive and easier.
+````
+# Install kubectl-ai
+# You can easily install kubectl-ai from https://github.com/GoogleCloudPlatform/kubectl-ai
+# If you have paid version OpenAI, Grok,...you can create api key and start using the tool.
+# Google also provide a trial https://aistudio.google.com/
+````
+After the installation, you can run the tool with `kubectl-ai --model gemini-2.5-flash-preview-04-17` and start interacting with it
+A health check question:
+![image](https://github.com/user-attachments/assets/67a29aef-245a-4502-817f-7244726f508a)  
+A more advanced question:
+![image](https://github.com/user-attachments/assets/cfd01b46-c263-4ce0-aa91-7f017c8e71ae)  
+On the first try, the model try a command but can not find a result.
+![image](https://github.com/user-attachments/assets/0bd04c3c-de32-4410-9c6d-0d182b19c049)  
+It starts "thinking" and try further:
+![image](https://github.com/user-attachments/assets/79b4a92c-d2da-4a9e-b14e-ea51c2572577)  
+The tool can also generate and apply configuration:  
+![image](https://github.com/user-attachments/assets/c4bc25eb-4715-47db-b083-208051f11104)  
+![image](https://github.com/user-attachments/assets/cb983c28-e998-4425-94d7-176e4003946b)  
+![image](https://github.com/user-attachments/assets/214c9395-17d2-4074-8969-bcd828c08ced)  
+![image](https://github.com/user-attachments/assets/be2b3b29-ab00-41c9-8b54-5072b221a63a)
+
+
+
+
 
 
 
