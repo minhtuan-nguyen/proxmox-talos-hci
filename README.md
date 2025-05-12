@@ -192,7 +192,7 @@ Google has recently released `kubectl-ai` to help managing and learning K8s much
 # If you have paid version OpenAI, Grok,...you can create api key and start using the tool.
 # Google also provide a trial https://aistudio.google.com/
 ````
-After the installation, you can run the tool with `kubectl-ai --model gemini-2.5-flash-preview-04-17` and start interacting with it
+After the installation, you can run the tool with `kubectl-ai --model gemini-2.5-flash-preview-04-17` and start interacting with it.  
 A health check question:
 ![image](https://github.com/user-attachments/assets/67a29aef-245a-4502-817f-7244726f508a)  
 A more advanced question:
